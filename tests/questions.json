@@ -1,0 +1,464 @@
+[
+ {
+  "id": "S1",
+  "group": "sample",
+  "question": "What is the recommended coolant concentration for the TX-200 CNC turning centre?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "6 - 8 %"
+  ]
+ },
+ {
+  "id": "S2",
+  "group": "sample",
+  "question": "The machine is showing alarm AL-104. What does it mean and what should the operator do?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "6."
+   ]
+  ],
+  "facts": [
+   "Way lube oil level low",
+   "ISO VG 68",
+   "MAX mark",
+   "RESET"
+  ]
+ },
+ {
+  "id": "S3",
+  "group": "sample",
+  "question": "Who is allowed to remove a lockout lock from a machine?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "SAF-SOP-003",
+    5,
+    "5."
+   ],
+   [
+    "SAF-SOP-003",
+    5,
+    "6."
+   ]
+  ],
+  "facts": [
+   "Nobody may remove another person's lock",
+   "Production Manager and the Safety Officer must both authorise"
+  ]
+ },
+ {
+  "id": "S4",
+  "group": "sample",
+  "question": "What is the outer diameter tolerance for the BH-220 bearing housing?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "6."
+   ]
+  ],
+  "facts": [
+   "Outer diameter 90.000 +/- 0.050 Digital caliper Major"
+  ]
+ },
+ {
+  "id": "S5",
+  "group": "sample",
+  "question": "How often should spindle runout be checked, and who does it?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "4."
+   ]
+  ],
+  "facts": [
+   "Monthly Check spindle runout",
+   "Maintenance technician"
+  ]
+ },
+ {
+  "id": "A1",
+  "group": "original",
+  "question": "What is the chuck mounting bolt torque?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "5."
+   ]
+  ],
+  "facts": [
+   "110 Nm"
+  ]
+ },
+ {
+  "id": "A2",
+  "group": "original",
+  "question": "How quickly must SQE be notified?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "5."
+   ]
+  ],
+  "facts": [
+   "within 4 hours"
+  ]
+ },
+ {
+  "id": "A3",
+  "group": "original",
+  "question": "What happens if the required MTC is missing?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "5."
+   ]
+  ],
+  "facts": [
+   "The MTC is mandatory",
+   "HOLD"
+  ]
+ },
+ {
+  "id": "A4",
+  "group": "original",
+  "question": "For a 200-piece lot, how many samples are required?",
+  "answerable": true,
+  "revision_note_expected": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "4."
+   ]
+  ],
+  "facts": [
+   "91 - 500 13"
+  ]
+ },
+ {
+  "id": "A5",
+  "group": "original",
+  "question": "What is the maximum spindle speed of the TX-200?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N1",
+  "group": "extra",
+  "question": "What is the maximum spindle speed (RPM) of the TX-200?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N2",
+  "group": "extra",
+  "question": "What is the canteen menu on Friday?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N3",
+  "group": "extra",
+  "question": "What is the torque for the spindle motor bearing on the TX-300?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N4",
+  "group": "extra",
+  "question": "What is the weather in Hosur today?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N5",
+  "group": "extra",
+  "question": "What is the part number of the hydraulic pump on the TX-200?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "P1",
+  "group": "tuning",
+  "question": "AL104 on the machine, what do I do?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "6."
+   ]
+  ],
+  "facts": [
+   "ISO VG 68"
+  ]
+ },
+ {
+  "id": "P2",
+  "group": "tuning",
+  "question": "what's the coolant mix percentage",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "6 - 8 %"
+  ]
+ },
+ {
+  "id": "P3",
+  "group": "tuning",
+  "question": "how often is the hydraulic oil replaced and with which oil?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "4."
+   ]
+  ],
+  "facts": [
+   "Replace hydraulic oil (ISO VG 46)"
+  ]
+ },
+ {
+  "id": "P4",
+  "group": "tuning",
+  "question": "where do rejected materials go?",
+  "answerable": true,
+  "revision_note_expected": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "5."
+   ]
+  ],
+  "facts": [
+   "Quarantine Cage Q1"
+  ]
+ },
+ {
+  "id": "P5",
+  "group": "tuning",
+  "question": "Which form is used to record inspection results?",
+  "answerable": true,
+  "revision_note_expected": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "5."
+   ]
+  ],
+  "facts": [
+   "QF-07A"
+  ]
+ },
+ {
+  "id": "P6",
+  "group": "tuning",
+  "question": "What is the bore diameter tolerance of the BH-220?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "6."
+   ]
+  ],
+  "facts": [
+   "Bore diameter 52.000 +0.030 / -0.000 CMM Critical"
+  ]
+ },
+ {
+  "id": "P7",
+  "group": "tuning",
+  "question": "What should I check at the start of every shift on the TX-200?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "4."
+   ]
+  ],
+  "facts": [
+   "Daily (start of shift)"
+  ]
+ },
+ {
+  "id": "P8",
+  "group": "tuning",
+  "question": "What is the hydraulic system pressure normal range?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "3.5 - 4.0 MPa"
+  ]
+ },
+ {
+  "id": "P9",
+  "group": "tuning",
+  "question": "How do I replace a hydraulic hose?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "7."
+   ]
+  ],
+  "facts": [
+   "Isolate the machine as per SAF-SOP-003"
+  ]
+ },
+ {
+  "id": "P10",
+  "group": "tuning",
+  "question": "How long are QF-07A inspection records kept?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "QC-SOP-014",
+    4,
+    "7."
+   ]
+  ],
+  "facts": [
+   "retained for 5 years"
+  ]
+ },
+ {
+  "id": "P11",
+  "group": "tuning",
+  "question": "What is the forklift speed limit in the warehouse?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "P12",
+  "group": "tuning",
+  "question": "Who won the cricket match yesterday?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "P13",
+  "group": "tuning",
+  "question": "What is the cutting speed for turning mild steel on the TX-200?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "P14",
+  "group": "tuning",
+  "question": "What percentage coolant should be used?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "6 - 8 %"
+  ]
+ },
+ {
+  "id": "P15",
+  "group": "tuning",
+  "question": "Recommended coolant mixture?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "6 - 8 %"
+  ]
+ },
+ {
+  "id": "P16",
+  "group": "tuning",
+  "question": "What is the coolant concentration?",
+  "answerable": true,
+  "expected_sections": [
+   [
+    "MNT-MAN-CNC-02",
+    2,
+    "3."
+   ]
+  ],
+  "facts": [
+   "6 - 8 %"
+  ]
+ },
+ {
+  "id": "N6",
+  "group": "extra",
+  "question": "What is the hydraulic pump part number?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N7",
+  "group": "extra",
+  "question": "Who supplies the hydraulic pump?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ },
+ {
+  "id": "N8",
+  "group": "extra",
+  "question": "What is the price of coolant?",
+  "answerable": false,
+  "expected_sections": [],
+  "facts": []
+ }
+]

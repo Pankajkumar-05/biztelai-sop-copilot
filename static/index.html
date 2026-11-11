@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOP Copilot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>SOP Copilot</h1>
+    <p class="sub">Ask a question about the plant's SOPs and manuals</p>
+  </header>
+
+  <main>
+    <form id="ask-form" autocomplete="off">
+      <label for="question" class="sr-only">Your question</label>
+      <textarea id="question" rows="2" maxlength="500" enterkeyhint="send"
+        placeholder="e.g. What does alarm AL-104 mean?"></textarea>
+      <button id="ask-button" type="submit">Ask</button>
+    </form>
+
+    <section class="examples" aria-label="Example questions">
+      <p class="label">Try one:</p>
+      <div id="chips"></div>
+    </section>
+
+    <section id="result" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>Answers come only from the supplied documents. The revision shown is the newest in the documents
+    given to this copilot, and they are uncontrolled copies: confirm in the QMS before acting.
+    This tool is a lookup aid and does not replace the plant's procedures.</p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
