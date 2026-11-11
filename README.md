@@ -216,7 +216,7 @@ http://<LAPTOP-IP>:8000
 Example used during testing:
 
 ```text
-http://10.55.181.172:8000
+http://90.55.181.172:8000
 ```
 
 The phone successfully loaded the application and received a generated, cited answer for the coolant question.
@@ -587,26 +587,3 @@ The user journey was written before the AI critique. The actual AI critique and 
 AI assistance was also used for implementation and debugging, while the supplied PDF evidence was checked against the source documents for the project tests.
 
 The project does not treat an LLM as the source of truth: document retrieval and validation happen around the LLM, and unsupported answers are rejected or returned as not found.
-
-## Assignment deliverables
-
-The repository contains:
-
-- application source code;
-- supplied PDF documents;
-- tests;
-- scripts;
-- `README.md`;
-- `THINKING.md`;
-- `.env.example`.
-
-Before pushing to GitHub, verify that the repository does **not** contain:
-
-```text
-.env
-API keys
-.venv/
-__pycache__/
-.pytest_cache/
-generated private results
-```
